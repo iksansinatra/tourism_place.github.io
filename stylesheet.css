@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
   }
+
+  html {
+    scroll-behavior: smooth;
+}
   
   body {
     margin: 0;
@@ -105,7 +109,6 @@
     color: #b8df0c;
   }
   
-  /* Tambahkan CSS untuk menu-icon */
   .menu-icon {
     color: white;
     float: right;
@@ -124,8 +127,20 @@
   .heading h2 {
     font-weight: normal;
   }
-  
-  
+
+  .style-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+    transition: transform .3s;
+    border-radius: 3px;
+}
+
+.style-image:hover {
+    transform: scale(1.1);
+}
+
   footer img {
     width: 125px;
   }
@@ -136,9 +151,9 @@
   }
   
   footer {
-    height: 65px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    height: 80px;
+    padding-top: 40px;
+    padding-bottom: 60px;
   }
   .fa {
     margin-left: 5px;
