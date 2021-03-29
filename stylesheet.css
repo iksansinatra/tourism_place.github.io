@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    /*padding: 180px 0 100px 0; */
+    padding: 80px 0 100px 0;
+    background-image: url(image/laut.jpg);
+    background-size: cover;
+    color: black;
+    /* text-align: center; */
+    min-height: 1000px;
+  }
+
+    
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(16, 197, 233, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    color: white;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+    margin-top: -8px;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a span{
+    padding : 10px;
+    border:1px solid white;
+    transition: all 0.3s;
+  }
+  
+  .header-right a:hover span{
+    border:1px dashed #b8df0c;
+  }
+  
+  .header-right a:hover {
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    color: #b8df0c;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+  }
+  
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #000000;
+    font-size: 12px;
+  }
+  
+  footer {
+    height: 65px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .fa {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .footer-left {
+      float: left;
+  }
+
+  .footer-right {
+      float: right;
+      
+  }
+.footer-right span {
+  color:aqua;
+}
